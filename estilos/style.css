@@ -5,3 +5,24 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body {
+    margin: 10px;
+}
+
+main#container {
+    width: 400px;
+    margin: auto;
+    background-color: white;
+}
+
+#topo {
+    display: flex;
+    flex-flow: column;
+}
+
+#nav {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
