@@ -3,15 +3,10 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
-}
-
-body {
-    margin: 10px;
 }
 
 main#container {
-    width: 400px;
+    width: 700px;
     margin: auto;
     background-color: white;
 }
@@ -19,10 +14,17 @@ main#container {
 #topo {
     display: flex;
     flex-flow: column;
+    text-align: center;
+    padding: 50px;
+    background-color: lightpink;
 }
 
-#nav {
-    display: flex;
-    flex-flow: row;
-    align-items: center;
+#topo h1 {
+    margin-bottom: 20px;
+}
+
+#nav a {
+    padding: 10px;
+    text-decoration: none;
+    background-color: lightblue;
 }
