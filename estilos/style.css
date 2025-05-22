@@ -22,7 +22,7 @@ main#container {
 }
 
 section {
-    padding: 20px;
+    padding-bottom: 20px;
     margin-bottom: 20px;
     border-bottom: 1px solid #ccc;
 }
@@ -42,7 +42,7 @@ main p {
 
 #topo {
     display: flex;
-    flex-flow: column wrap-reverse;
+    flex-flow: column wrap;
     text-align: center;
     justify-content: space-around;
     height: 300px;
@@ -100,4 +100,18 @@ img {
     margin: auto;
     background: fixed;
     transition: all 0.5s ease;
+}
+
+#vide {
+    display: block;
+    margin: auto;
+    width: 450px;
+}
+
+#volt {
+    background-color: #DE176A;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 16px;
 }
