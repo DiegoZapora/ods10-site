@@ -1,5 +1,68 @@
 @charset "UTF-8";
 
-@media screen and (min-width:) {
+@media screen and (min-width: 490px) and (max-width: 768px) {
+    main#container {
+        max-width: 700px;
+        
+    }
+
+    #img, #desamg, #vide {
+        width: 100%;
+    }
     
+    #img {
+        max-width: 480px;
+    }
+
+    #desamg {
+        max-width: 300px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    main#container {
+        max-width: 900px;
+        font-size: 1.3em;
+        line-height: 40px;
+    }
+
+    #img, #vide {
+        width: 100%;
+    }
+
+    #topo {
+        font-size: 1.3em;
+    }
+
+    #img {
+        max-width: 700px;
+    }
+
+    #vide {
+        max-width: 600px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1920px) {
+    main#container {
+        max-width: 1100px;
+        font-size: 1.4em;
+        line-height: 50px;
+    }
+
+    #topo {
+        font-size: 1.4em;
+    }
+
+    #img, #vide {
+        width: 100%;
+    }
+
+    #vide {
+        max-width: 600px;
+    }
+
+    #desamg {
+        width: 400px;
+    }
 }

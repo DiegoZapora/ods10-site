@@ -7,11 +7,13 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(211, 211, 211, 0.61);
 }
 
 main#container {
     max-width: 460px;
     width: 90%;
+    display: block;
     margin: auto;
     margin-top: 15px;
     padding: 10px;
@@ -46,7 +48,7 @@ main p {
     text-align: center;
     justify-content: space-around;
     height: 300px;
-    background-color: #de176ad3;
+    background-image: linear-gradient(to bottom, #DE176A, #de176a7e);
     border-radius: 0px 0px 5px 5px;
 }
 
@@ -54,7 +56,8 @@ main p {
     color: white;
     font-weight: bolder;
     font-size: 2em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
 }
 
 #nav a {
@@ -63,6 +66,11 @@ main p {
     background-color: white;
     color: black;
     border-radius: 16px;
+}
+
+#nav a:hover {
+    background-color: #DE176A;
+    color: white;
 }
 
 footer {
@@ -84,6 +92,12 @@ footer a {
     color: white;
     border: 1px solid black;
     cursor: pointer;
+    border-radius: 5px;
+}
+
+#samp:hover  {
+    background-color: #ac2d62;
+    border-radius: 10px;
 }
 
 #fech {
@@ -93,13 +107,26 @@ footer a {
     color: white;
     border: 1px solid black;
     cursor: pointer;
+    border-radius: 5px;
 }
 
-img {
+#fech:hover {
+    background-color: #ac2d62;
+    border-radius: 10px;
+}
+
+#img {
     display: block;
     margin: auto;
     background: fixed;
     transition: all 0.5s ease;
+    width: 400px;
+}
+
+#desamg {
+    width: 300px;
+    display: block;
+    margin: auto;
 }
 
 #vide {
