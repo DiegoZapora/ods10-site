@@ -13,3 +13,22 @@ carrinho.addEventListener("click", () => {
     im.style.display = "none"
     carrinho.style.display = "none"
 })
+
+let btn = document.getElementById("mostra")
+let nav = document.getElementById("bar")
+
+btn.addEventListener("click", () => {
+    if (nav.style.display === "block") {
+        nav.style.display = "none"
+    } else {
+        nav.style.display = "block"
+    }
+})
+
+window.addEventListener("resize", () => {
+    if (window.innerWidth >= 1025) {
+        nav.style.display = "block"
+    } else {
+        nav.style.display = "none"
+    }
+})

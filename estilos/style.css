@@ -50,6 +50,7 @@ main p {
     height: 300px;
     background-image: linear-gradient(to bottom, #DE176A, #de176a7e);
     border-radius: 0px 0px 5px 5px;
+    box-shadow: 1px 1px 15px 1px black;
 }
 
 #topo h1 {
@@ -60,7 +61,19 @@ main p {
     margin-bottom: 20px;
 }
 
-#nav a {
+#mostra {
+    width: 55px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#mostra:hover {
+    background-color: #ac2d62;
+}
+
+#bar a {
     padding: 10px;
     text-decoration: none;
     background-color: white;
@@ -68,7 +81,7 @@ main p {
     border-radius: 16px;
 }
 
-#nav a:hover {
+#bar a:hover {
     background-color: #DE176A;
     color: white;
 }

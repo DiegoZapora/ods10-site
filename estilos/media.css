@@ -1,6 +1,16 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 490px) and (max-width: 768px) {
+    #topo {
+        justify-content: space-evenly;
+    }
+    #mostra {
+        display: block;
+    }
+
+    #bar {
+        display: none;
+    }
     main#container {
         max-width: 700px;
         
@@ -20,6 +30,14 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+    #mostra {
+        display: block;
+    }
+
+    #bar {
+        display: none;
+    }
+
     main#container {
         max-width: 900px;
         font-size: 1.3em;
@@ -32,6 +50,7 @@
 
     #topo {
         font-size: 1.3em;
+        justify-content: space-evenly;
     }
 
     #img {
@@ -44,6 +63,14 @@
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1920px) {
+    #mostra {
+        display: none;
+    }
+
+    #bar {
+        display: block;
+    }
+
     main#container {
         max-width: 1100px;
         font-size: 1.4em;
